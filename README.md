@@ -12,7 +12,7 @@ Which is written in Unity C#.
 
 Key requirements:
 1.1) Variable and Method Conventions: Private variables are prefixed with an underscore (_), and no private keyword is used. The same rule applies to private methods.
-1.2) Namespace Consistency: Use KOVR.Runtime as the namespace.
+1.2) Namespace Consistency: Use [Insert Namespace Here] as the namespace.
 1.3) Code Quality: Write clean, modern, and organized code with descriptive variable and method names. Avoid unnecessary comments unless clarification is needed.
 1.4) Global Variables: Minimize or eliminate them.
 1.5) "Magic Numbers": Avoid them by using constants or configurations instead.
@@ -45,7 +45,7 @@ Safeguard against ongoing coroutines, async/await(s), events, or callbacks runni
 
 Follow my code style preferences:
 2.1) Private variables should not use the private keyword and should be prefixed with _.
-2.2) Namespaces should be consistent [Insert Namespace].
+2.2) Namespaces should be consistent [Insert Namespace Here].
 2.3) Avoid "magic numbers" and use constants instead.
 2.4) Enums over Magic Strings: Replace repetitive strings with enums where applicable to improve maintainability and avoid typos.
 2.5) Global Variables: Minimize or eliminate them.
