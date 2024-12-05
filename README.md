@@ -4,7 +4,9 @@ A concise collection of prompts for generating and reviewing Unity C# code for V
 ## Standard Prompt for Code Generation
 
 ```
-I need to implement [insert problem statement]
+I need to implement...
+
+[Insert Problem Statement Here]
 
 Which is written in Unity C#.
 
@@ -51,4 +53,22 @@ Follow my code style preferences:
 2.7) Assume this is for a Unity VR application or Mobile application. Optimize the code accordingly.
 2.8) Serialization: Clearly define which variables need [SerializeField] or [NonSerialized] attributes, ensuring data integrity between scenes and runtime. Variables with [SerializeField] should follow 2.1) 
 2.9) Code Grouping: Organize code logically (e.g., grouping public methods, private methods, and Unity event methods together for clarity).
+```
+
+## Generating Unit Tests
+
+```
+Generate unit tests in Unity C# for the following function:
+
+[Insert Function Here]
+
+Please include:
+1) Setup and Teardown Methods
+2) Edge case tests
+3) Invalid Input tests
+4) Valid Input tests
+
+Use syntax from these Unity C# libraries (if applicable)
+a) System.Reflection;
+b) NUnit.Framework;
 ```
