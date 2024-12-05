@@ -19,9 +19,8 @@ Key requirements:
 
 Additional Considerations:
 11) Gracefully handle errors and edge cases.
-12) Optimize for performance with VR-specific needs, such as minimizing draw calls and optimizing shaders.
-13) Structure code for testability, including example unit tests where relevant.
-14) Follow Unity C# best practices, such as using the Unity Job System or Burst Compiler if applicable.
+12) Structure code for testability, including example unit tests where relevant.
+13) Follow Unity C# best practices, such as using the Unity Job System or Burst Compiler if applicable.
 ```
 
 ## Reviewing Code (Whether it is AI or Human Generated)
@@ -41,13 +40,12 @@ Please analyze the code provided above. Consider the following aspects during yo
 
 Follow my code style preferences:
 2.1) Private variables should not use the private keyword and should be prefixed with _.
-2.2) Namespaces should be consistent (KOVR.Runtime).
+2.2) Namespaces should be consistent [Insert Namespace].
 2.3) Avoid "magic numbers" and use constants instead.
-2.4) Global Variables: Minimize or eliminate them.
-2.5) "Magic Numbers": Avoid them by using constants or configurations instead.
+2.4) Enums over Magic Strings: Replace repetitive strings with enums where applicable to improve maintainability and avoid typos.
+2.5) Global Variables: Minimize or eliminate them.
 2.6) Line Length: Limit to 100-120 characters for readability.
 2.7) Assume this is for a Unity VR application. Optimize the code accordingly.
 2.8) Serialization: Clearly define which variables need [SerializeField] or [NonSerialized] attributes, ensuring data integrity between scenes and runtime. Variables with [SerializeField] should follow 2.1) 
 2.9) Code Grouping: Organize code logically (e.g., grouping public methods, private methods, and Unity event methods together for clarity).
-2.10) Enums over Magic Strings: Replace repetitive strings with enums where applicable to improve maintainability and avoid typos.
 ```
